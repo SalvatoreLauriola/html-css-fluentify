@@ -1,0 +1,291 @@
+/* General Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: gray;
+}
+
+/* Typography */
+h2 {
+  margin-bottom: 15px;
+  font-size: 180%;
+  color: #000;
+}
+
+h2.big {
+  font-size: 220%;
+}
+
+/* Utilities */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.padfix {
+  padding-bottom: 20px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  line-height: 23px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-blue {
+  padding: 5px 30px;
+}
+
+.btn-green {
+  background: #7bbb00;
+  border: 0;
+}
+
+.btn-default {
+  padding: 5px 10px;
+}
+
+.btn-large {
+  padding: 20px;
+}
+
+.menu-inline .btn:hover {
+  color: white;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.col-3 {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0 2%;
+}
+
+.float-left {
+  float: left;
+}
+
+.sx-part {
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.dx-part {
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+/* Header */
+#main-header {
+  height: 560px;
+  background-color: #0b3259;
+  background-image: url('../img/background-header.png');
+  background-position: 110% 110%;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+}
+.header-nav {
+  height: 80px;
+  font-size: 80%;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.header-nav a:hover,
+.header-nav a:active,
+.header-nav a:focus {
+  color: #e3ba3c;
+}
+
+.header-nav .header-logo,
+.header-nav .header-nav-center,
+.header-nav .header-nav-right {
+  float: left;
+}
+
+.header-nav .header-logo {
+  width: 15%;
+}
+
+.header-nav .header-logo img {
+  margin-top: 16px;
+}
+
+.header-nav .header-nav-center {
+  width: 45%;
+}
+
+/* Menu */
+.menu-inline {
+  list-style: none;
+}
+
+.menu-inline li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header-nav .header-nav-right {
+  width: 40%;
+  text-align: right;
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  height: 480px;
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.jumbotron-text h1 {
+  margin-bottom: 30px;
+  font-size: 350%;
+  color: #fff;
+}
+
+/* Efficency */
+#efficency {
+  padding: 40px 8%;
+  background: #d3d3d3;
+  text-align: center;
+}
+
+#efficency p {
+  font-size: 130%;
+}
+
+/* Info */
+#info {
+  margin: 0 1%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+.info-data-img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.info-data-heading {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  color: #7bbb00;
+  font-size: 180%;
+}
+
+.info-data-heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 20%;
+  height: 1px;
+  transform: translateX(-50%);
+  background: gray;
+}
+
+.info-data-text {
+  font-size: 120%;
+  line-height: 150%;
+}
+
+/* Plan */
+#plan {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* Help */
+#help {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+}
+#help a {
+  display: inline-block;
+  padding: 10px;
+  background: #7bbb00;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
+}
+
+/* Structure styles here*/
+
+
+#structure {
+  background: #d3d3d3;
+  padding: 40px 5%;
+}
+
+.structure-nav,
+.struct-text1,
+.struct-text2 {
+  display: inline-block;
+}
+
+.structure-nav {
+  margin-right: 450px;
+  color: black;
+  font-size: 20px;
+}
+
+
+
+
+}
+.structure-nav .big {
+  font-size: 30px;
+}
+
+.section2 {
+  float: right;
+  text-align: right;
+  padding-right: 100px;
+}
+
+.section2 p {
+  font-size: 16px;
+}
+
+ .txt2 {
+   text-decoration: underline;
+ }
+
+
+.struct-select {
+  margin-bottom: 5px;
+}
